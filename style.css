@@ -76,6 +76,13 @@ img {
   display: block;
 }
 
+/*クイズ作成画面CSS*/
+.quizMakeTitle {
+  text-align: center;
+  padding: 16px;
+  font-size: 50px;
+}
+
 /*スマホサイズ*/
 @media (max-width: 600px) {
   .quiz-container {
@@ -88,4 +95,8 @@ img {
     padding: 0;
     width: 100%;
   }
+}
+
+.hidden {
+  display: none;
 }
